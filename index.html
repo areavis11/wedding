@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyssa & Daniel's Wedding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Pinyon+Script&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+      
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 5px;
+        right: 3px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        font-family: "Poiret One", serif;
+        background-color: transparent;
+        color: #ff6949;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 14px;
+      }
+      
+      #myBtn:hover {
+        color: #ffbf90;
+        background-color: transparent;
+      }
+
+    
+    </style>
+  </head> 
+    <body>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="" height="40" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2 2 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386"/>
+      </svg></button>
+
+      <section id="home" class="hero">
+        <div class="px-4 py-5 mb-5 text-center">
+          <br>
+          <br>
+          <p>You're invited to the wedding of</p>
+          <h2 class="pinyon-script-regular">Alyssa & Daniel</h2>
+          <p>October 18, 2025 in Fredericksburg, TX.</p>
+          <br>
+          <div class="col-lg-6 pt-5 mx-auto">
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a href="#detail"><button type="button" class="btn btn-outline-light px-3 rounded-pill mx-2 cormorant-garamond">details</button></a>
+              <a href="#photo"><button type="button" class="btn btn-outline-light px-3 rounded-pill  mx-2 cormorant-garamond">gallery</button></a>
+              <a href="#rsvp"><button type="button" class="btn btn-outline-light px-3 rounded-pill mx-2 gap-3 cormorant-garamond">rsvp</button></a>
+              <a href="#stay"><button type="button" class="btn btn-outline-light px-3 rounded-pill  mx-2 cormorant-garamond">stay</button></a>
+              <a href="#gift"><button type="button" class="btn btn-outline-light px-3 rounded-pill  mx-2 cormorant-garamond">registry</button></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--
+      class portion removed from nav buttons in hero after "btn", before "px-3" (1/31):
+      btn-outline-light rounded-pill
+
+      removed "btn-link" on 2/5/25
+      -->
+      <br>
+      <br>
+      <br>
+      <hr class="style-eight-2">
+    
+      <section id="detail">
+          <div class="container col-xxl-9 px-4 rounded-3">
+            <div class="row flex-lg-row-reverse align-items-center g-5 pb-5 px-5" id="detail">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./photos/Alyssa-Venue-Sketch.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="" height="" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <p class="lead-intro"> <strong class="lead cormorant-garamond indent">Together with their families,</strong><br>
+                <strong class="pinyon-script-regular black-lg">Alyssa Margaret Reavis</strong><br>
+                <strong class="pinyon-script-regular black">&</strong><br>
+                <strong class="pinyon-script-regular black-lg">Daniel Kyle Munos</strong><br><br>
+                <strong class="lead cormorant-garamond">invite you to celebrate their wedding<br>
+                <strong class="pinyon-script-regular black">at St. Mary's Catholic Church,</strong><br>304 W San Antonio St.<br>Fredericksburg, TX<br>
+                <br><strong class="pinyon-script-regular black">on Saturday, October 18, 2025</strong>
+                <br>from 2:00 to 3:00 pm,<br><strong class="pinyon-script-regular black">followed by a reception</strong> 
+                <br>from 3:00 to 8:00 pm.<br><br><strong class="pinyon-script-regular black">Cocktail attire encouraged.</strong></p> <br>
+                
+                <div type="button" class="text-center"><a href="#rsvp" class="rsvp-scroll btn btn-dark rounded-pill px-4 cormorant-garamond">RSVP</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!--
+      <section id="detail">
+        <div class="container pt-0 p-4"></div>
+          <div class="container col-xxl-9 px-4 rounded-3">
+            <div class="row flex-lg-row-reverse align-items-center g-5 pb-5 px-5" id="detail">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./photos/Alyssa-Venue-Sketch.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h3 class="display-4 lh-1 title pinyon-script-regular">details</h3>
+                <p class="lead raleway">Together with their families, Alyssa Margaret Reavis and Daniel Kyle Munos invite you to celebrate their marriage. <br>
+                  <br><strong>Location:</strong> 304 W San Antonio St. Fredericksburg, TX
+                  <br><strong>Date:</strong> Saturday, October 18, 2025 
+                  <br><strong>Ceremony Time:</strong> 2:00 to 3:00 pm
+                  <br><strong>Reception Time:</strong> 3:00 to 8:00 pm
+                  <br><strong>Attire:</strong> Cocktail Attire</p> <br>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <div type="button" class="text-center"><a href="#rsvp" class="rsvp-scroll btn btn-dark rounded-pill px-4 raleway">RSVP</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>-->
+<br>
+
+<!--GALLERY-->
+      <hr class="style-eight">
+<!--
+      <section id="photo" class="pb-5 text-center container" >
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+
+           <h3 class="title pinyon-script-regular"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-hearts" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.931.481c1.627-1.671 5.692 1.254 0 5.015-5.692-3.76-1.626-6.686 0-5.015m6.84 1.794c1.084-1.114 3.795.836 0 3.343-3.795-2.507-1.084-4.457 0-3.343M7.84 7.642c2.71-2.786 9.486 2.09 0 8.358-9.487-6.268-2.71-11.144 0-8.358"/>
+            </svg> gallery <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-hearts" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.931.481c1.627-1.671 5.692 1.254 0 5.015-5.692-3.76-1.626-6.686 0-5.015m6.84 1.794c1.084-1.114 3.795.836 0 3.343-3.795-2.507-1.084-4.457 0-3.343M7.84 7.642c2.71-2.786 9.486 2.09 0 8.358-9.487-6.268-2.71-11.144 0-8.358"/>
+            </svg></h3><br>
+
+          </div>
+          <div class="gallery">
+            <img src="./engagementphotos/A37A1341.jpg">
+            <img src="./engagementphotos/A37A1614.jpg">
+            <img src="./engagementphotos/A37A1529.jpg">
+            <img src="./engagementphotos/A37A1758.jpg">
+            <img src="./photos/16.png">
+            <img src="./photos/20.png">
+      </section>
+-->
+      <br>
+<!--Carousel-->
+      <section id="photo">
+        <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./engagementphotos/A37A1441.jpg" class="d-block w-100" alt="moving-family">
+              </div>
+              <div class="carousel-item">
+                <img src="./engagementphotos/A37A1529.jpg" class="d-block w-100" alt="moving-couple">
+              </div>
+              <div class="carousel-item">
+                <img src="./engagementphotos/A37A1551.jpg" class="d-block w-100" alt="moving-couple">
+              </div>
+              <div class="carousel-item">
+                <img src="./engagementphotos/A37A1582.jpg" class="d-block w-100" alt="moving-couple">
+              </div>
+              <div class="carousel-item">
+                <img src="./engagementphotos/A37A1614.jpg" class="d-block w-100" alt="moving-couple">
+              </div>
+              <div class="carousel-item">
+                <img src="./engagementphotos/A37A1662.jpg" class="d-block w-100" alt="moving-couple">
+              </div>
+              <div class="carousel-item">
+                <img src="./engagementphotos/A37A1791.jpg" class="d-block w-100" alt="moving-couple">
+              </div>
+              <div class="carousel-item">
+                <img src="./engagementphotos/A37A1758.jpg" class="d-block w-100" alt="moving-couple">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+<!--RSVP FORM-->
+      <hr class="style-eight-3">
+
+      <section id="rsvp">
+        <div class="container pt-3 pb-5">
+          <div class="p-2 text-center bg-body-tertiary rounded-3 border shadow-lg">
+          <div class="invite">
+          <section class="formcarry-container pt-4">
+          <form action="https://formcarry.com/s/LP9aQOrdQ1b" method="POST" enctype="multipart/form-data">
+            <div>
+              <h3 class="title pinyon-script-regular mt-3 mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="" fill="currentColor" class="bi bi-envelope-open-heart-fill" viewBox="0 0 16 16">
+                <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l4.222 2.475q.035-.087.08-.17c.665-1.3 2.362-1.917 3.698-1.25 1.336-.667 3.033-.05 3.699 1.25a3 3 0 0 1 .08.17L16 5.713V5.4a2 2 0 0 0-1.059-1.765zM0 6.873l4 2.344c-.012.542.124 1.117.416 1.694l.004.006L0 13.372v-6.5Zm.059 7.611 4.9-2.723c.563.73 1.383 1.467 2.49 2.198l.551.365.551-.365c1.107-.73 1.927-1.467 2.49-2.198l4.9 2.723A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516M16 13.372l-4.42-2.455.004-.006c.292-.577.428-1.152.415-1.694L16 6.873v6.5Z"/>
+                <path d="M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+              </svg></h3>
+            </div>
+            <div>
+              <p class="form lead cormorant-garamond">We kindly ask that you RSVP by September 18th.</p>
+            </div>
+            <BR>
+            <div class="formcarry-block">
+              <label for="fc-generated-1-name" class="cormorant-garamond">Full Name:</label>
+              <input type="text" name="name" id="fc-generated-1-name" placeholder="First and Last Name" required/>
+            </div>
+            
+            <div class="formcarry-block">
+              <label for="fc-generated-1-email" class="cormorant-garamond">Email:</label>
+              <input type="email" name="email" id="fc-generated-1-email" placeholder="your@name.com" required/>
+            </div>
+
+            <div class="formcarry-block">
+              <label for="fc-generated-1-email" class="cormorant-garamond">Can you attend?</label>
+              <input type="text" name="can you attend" id="fc-generated-1-email" placeholder="Yes/No" required/>
+            </div>
+
+            <div class="formcarry-block">
+              <label for="fc-generated-1-email" class="cormorant-garamond">Number of Adults:</label>
+              <input type="number" name="number of adults" id="fc-generated-1-email" placeholder="0" required/>
+            </div>
+
+            <div class="formcarry-block">
+              <label for="fc-generated-1-email" class="cormorant-garamond">Number of Children (under 12):</label>
+              <input type="number" name="number of children" id="fc-generated-1-email" placeholder="0"/>
+            </div>
+            
+            <div class="formcarry-block">
+              <label for="fc-generated-1-message" class="cormorant-garamond">Your Message (optional):</label>
+              <textarea name="message" class="poiret-one-regular"name="message" id="fc-generated-1-message" placeholder="food allergies, song requests, message for the bride and groom, etc."></textarea>
+            </div>
+            
+            <div class="formcarry-block">  
+              <button class="btn btn-outline-light rounded-pill mb-5 raleway" type="submit">Submit</button>
+            </div>
+          </form>
+        </section>
+      </div>
+      </section>
+
+      <br><br>
+<!--STAY-->
+      <hr class="style-eight-4">
+
+      <section id="stay">
+        <div class="container pt-3 pb-5">
+          <div class="p-5 text-center bg-body-tertiary rounded-3 border shadow-lg">
+            <h3 class="title pinyon-script-regular">hotel reservations <svg xmlns="http://www.w3.org/2000/svg" width="40" height="" fill="currentColor" class="bi bi-building-fill" viewBox="0 0 16 16">
+              <path d="M3 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3v-3.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V16h3a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zm1 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5"/>
+            </svg><!--<svg xmlns="http://www.w3.org/2000/svg" width="50" height="" fill="currentColor" class="bi bi-house-heart-fill" viewBox="0 0 16 16">
+              <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707z"/>
+              <path d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018"/>
+            </svg>--></h3><br>
+            <p class="lead cormorant-garamond"> Feel free to reserve you room at one of the two blocked locations listed below. There are many beautiful places to stay in Fredericksburg.<br>
+              If you choose to stay at a different hotel or bed and breakfast, we encourage you to book early! This time-frame will be particularly busy with Bestfest occuring at the same time. 
+              <br>
+              <br>
+              Hotel 1:
+                <br><button type="button" class="registry btn btn-dark rounded-pill px-3">
+                <a class="registry-button" href="https://withjoy.com/alyssa-and-daniel-oct-25/registry" style="text-decoration:none">click here</a>
+                </button><br><br>
+              Hotel 2:
+                <br><button type="button" class="registry btn btn-dark rounded-pill px-3">
+                <a class="registry-button" href="https://withjoy.com/alyssa-and-daniel-oct-25/registry" style="text-decoration:none">click here</a>
+                </button>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <br><br>
+<!--GIFT-->
+      <hr class="style-eight-5">
+
+      <section id="gift">
+        <div class="container pt-3 pb-5">
+          <div class="p-5 text-center bg-body-tertiary rounded-3 border shadow-lg">
+            <h3 class="title pinyon-script-regular">wedding gifts <svg xmlns="http://www.w3.org/2000/svg" width="40" height="" fill="currentColor" class="bi bi-gift-fill pb-1" viewBox="0 0 16 16">
+              <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z"></path>
+            </svg></h3><br>
+            <p class="lead cormorant-garamond">Your presence and support are gift enough, however, if you wish to give us a wedding gift, we made a registry with ideas that would help us start our journey together.</p>
+            <br>
+            <button type="button" class="registry btn btn-dark rounded-pill px-3">
+            <a class="registry-button" href="https://withjoy.com/alyssa-and-daniel-oct-25/registry" style="text-decoration:none">click here</a>
+            </button>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="footer">
+        <div class="footer-container">
+          <footer class="pt-4 mt-4">
+            <ul class="nav justify-content-center mb-4">
+              <li class="nav-item"><a href="#home" class="nav-link btn px-4 text-body-secondary pinyon-script-regular">home</a></li>
+              <li class="nav-item"><a href="#detail" class="nav-link btn px-4 text-body-secondary pinyon-script-regular">details</a></li>
+              <li class="nav-item"><a href="#photo" class="nav-link btn px-4 text-body-secondary pinyon-script-regular">gallery</a></li>
+              <li class="nav-item"><a href="#stay" class="nav-link btn px-4 text-body-secondary pinyon-script-regular">stay</a></li>
+              <li class="nav-item"><a href="#rsvp" class="nav-link btn px-4 text-body-secondary pinyon-script-regular">rsvp</a></li>
+              <li class="nav-item"><a href="#gift" class="nav-link btn px-4 text-body-secondary pinyon-script-regular">registry</a></li>
+            </ul>
+            <div class="footer-image text-center justify-content-center">
+            <small class="cormorant-garamond-footer">web design & coding by Alyssa Reavis</small></div>
+          </footer>
+        </div>
+      </section>
+      <script>
+        let mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
